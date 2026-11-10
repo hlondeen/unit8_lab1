@@ -83,16 +83,35 @@ tell ya what function to look at
 
 ## Which tests in Task3Test were failing before your fix?
 -
+org.opentest4j.AssertionFailedError:
+Expected :15
+Actual   :0
+<Click to see difference>
+
+
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+	at Task3Test.testSumRangeReverseOrder(Task3Test.java:13)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+
+Process finished with exit code -1
 
 ## What was the issue in the code?
 -
-
+didn't handle reverse order
 ## What change did you make to fix it?
 -
-
+added the ability to handle an reversed range.
 ## How did the tests help guide your fix?
 -
-
+told me what failed so i could find the bug.
 ---
 
 # Overall Reflection

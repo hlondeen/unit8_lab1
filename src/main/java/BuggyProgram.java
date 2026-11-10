@@ -30,6 +30,11 @@ public class BuggyProgram {
     public static int sumRange(int start, int end) {
         int sum = 0;
 
+        if (start > end ) {
+            int temp = start;
+            start = end;
+            end = temp;
+        }
         for (int i = start; i <= end; i++) {
             sum += i;
         }
