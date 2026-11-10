@@ -1,21 +1,21 @@
 # Lab Reflection: Unit 8 Lab 1 - Git Version Control + Debugging (BuggyProgram)
 
 ## Student Name
-Enter your name here.
+Harrison 
 
 ## GitHub Repository URL
 Paste your GitHub repository URL here.
-
+https://github.com/hlondeen/unit8_lab1
 ---
 
 # Commit 1: Initial Commit
 
 ## What did you include in this commit?
--
+- What the directions said....
 
 ## What was the purpose of this commit?
--
-
+- 
+create a baseline.
 ---
 
 # Commit 2: Task 1 (getGrade)
