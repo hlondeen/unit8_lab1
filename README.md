@@ -118,25 +118,26 @@ told me what failed so i could find the bug.
 
 ## Which task was the easiest to fix? Why?
 -
-
+First one. simple flip.
 ## Which task was the most difficult? Why?
 -
-
+last one required the most work, but the testcase saved a lot of effort debugging.
 ## How did Git help you track your progress through the debugging process?
 -
-
+isolate issues and show progress to resolving bugs.
 ## Why is it important to make small, frequent commits when debugging code?
 -
-
+isolate issues.  You never know if its bigger than you thought or something really simple
 ## What did you learn about using JUnit tests to guide debugging?
 -
-
+It is without double a best practice, and makes it easy to squash bugs. 
 ---
 
 # Commit 5: Final Reflection
 
 ## What did you complete or update before making this final commit?
 -
-
+the section above...
 ## Why is it useful to document your work after completing a programming task?
 -
+comments make understanding how code functions easy, which means you can understand how it works and where the bugs are.
