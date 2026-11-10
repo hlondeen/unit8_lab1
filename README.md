@@ -22,32 +22,61 @@ create a baseline.
 
 ## Which tests in Task1Test were failing before your fix?
 -
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+at BuggyProgram.sumEvenNumbers(BuggyProgram.java:21)
+at Task2Test.testEmpty(Task2Test.java:21)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
 ## What was the issue in the code?
 -
+swapped lables and wrong > // >=
 
 ## What change did you make to fix it?
 -
-
+fixed the labels and added >=
 ## How did the tests help guide your fix?
 -
-
+Always
 ---
 
 # Commit 3: Task 2 (sumEvenNumbers)
 
 ## Which tests in Task2Test were failing before your fix?
 -
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+at BuggyProgram.sumEvenNumbers(BuggyProgram.java:21)
+at Task2Test.testEmpty(Task2Test.java:21)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+
+
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+at BuggyProgram.sumEvenNumbers(BuggyProgram.java:21)
+at Task2Test.testOddNumbers(Task2Test.java:15)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
+at BuggyProgram.sumEvenNumbers(BuggyProgram.java:21)
+at Task2Test.testSumEvenNumbers(Task2Test.java:9)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
 ## What was the issue in the code?
 -
-
+sum at 1 not 0, <= instead of <
 ## What change did you make to fix it?
 -
-
+sum = 0, swapped <= to <
 ## How did the tests help guide your fix?
 -
-
+tell ya what function to look at
 ---
 
 # Commit 4: Task 3 (sumRange)
