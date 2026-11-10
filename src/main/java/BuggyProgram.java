@@ -1,5 +1,5 @@
 public class BuggyProgram {
-
+    // made a comment and didn't push 1... rip
     // Method 1: nested conditionals
     public static String getGrade(int score) {
         if (score >= 90) {
